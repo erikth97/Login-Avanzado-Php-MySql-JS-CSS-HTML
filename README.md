@@ -1,5 +1,8 @@
 # Login Avanzado utilizando PHP
-![image](https://user-images.githubusercontent.com/94486146/233183499-511b33c5-1cf7-4eb7-9419-b54b9afe78f2.png)
+![image](https://user-images.githubusercontent.com/94486146/233183799-30175f0b-2d0b-43dc-bb06-943eed889054.png)
+![image](https://user-images.githubusercontent.com/94486146/233183860-54065656-1be9-4354-ba05-9022329a65de.png)
+![image](https://user-images.githubusercontent.com/94486146/233183964-f9a991c1-b328-4d8c-98ab-cd5f522e7e22.png)
+
 
 El proyecto "Login Avanzado utilizando PHP" tiene como objetivo proporcionar un sistema de inicio de sesión y registro seguro utilizando PHP y MySQL. El sistema permite a los usuarios registrarse, iniciar sesión y cerrar sesión en una cuenta protegida mediante una encriptación de contraseña segura.
 
