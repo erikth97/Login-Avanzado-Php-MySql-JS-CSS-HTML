@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-image: radial-gradient(circle, #ff0000, #f00000, #e20000, #d40000, #c60000, #b90002, #ac0003, #9f0004, #910005, #820006, #740005, #660004);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  main {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .contendor__todo {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+  }
+  
+  .caja__trasera {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(232, 212, 212, 0.2);
+    border-radius: 0.5rem;
+  }
+  
+ .caja__trasera div {
+    margin: 100px 40px;
+    color: white;
+    transition: all 500ms;
+    text-align: center;
+  }
+  
+  .caja__trasera div p,
+  .caja__trasera div button {
+    margin-top: 30px;
+  }
+  
+  .caja__trasera div h3 {
+    font-weight: 400;
+    font-size: 26px;
+  }
+  
+  .caja__trasera button {
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: all 300ms;
+  }
+  
+  .caja__trasera button:hover {
+    background: #fff;
+    color: #ff0000;
+    border-color: #ff0000;
+  }
+  
+  /* Formularios */
+  .contenedor__login-register {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -185px;
+    left: 10px;
+    transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  }
+  
+  .contenedor__login-register form {
+    width: 100%;
+    padding: 80px 20px;
+    background-image: radial-gradient(circle, #ffffff, #ece8ef, #ded0db, #d2b8c3, #c7a1a8);
+    position: absolute;
+    border-radius: 2px;
+  }
+  
+  .contenedor__login-register form h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e4242a;
+  }
+  
+  .contenedor__login-register form input {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: rgba(173, 173, 173, .27);
+    font-size: 16px;
+    outline: none;
+    border-radius: 0.5rem;
+  }
+
+  .contenedor__login-register form button{
+    padding: 11px 48px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background-color: rgb(203, 38, 38);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0.5rem;
+  }
+
+  .contenedor__login-register form button:hover {
+    background: #e92d2d;
+    color: white;
+    border-color: #ff0000;
+  }
+
+  .formulario__login{
+    opacity: 1;
+    display: block;
+  }
+
+  .formulario__register{
+    display: none;
+  }
+
+  /* Responsive Desing*/
+
+  @media screen and (max-width: 850px){
+
+    main{
+      margin-top: 50px;
+    }
+
+    .caja__trasera{
+      max-width: 350px;
+      height: 300px;
+      flex-direction: column;
+      margin: auto;
+    }
+
+    .caja__trasera div{
+        margin: 0px;
+        position: absolute;
+    }
+
+    /*Formularios*/
+
+    .contenedor__login-register{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+    }
+
+    .contenedor__login-register form{
+        position: relative;
+    }
+}
